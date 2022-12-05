@@ -1,0 +1,45 @@
+{
+    "total":{
+       "column_title":"Hours",
+       "can_be_substituted_with_service":false,
+       "active":16,
+       "da":28,
+       "pa":33
+    },
+    "service":{
+       "column_title":"Service Hours",
+       "can_be_substituted_with_service":false,
+       "active":12,
+       "da":20,
+       "pa":36
+    },
+    "social_pd":{
+       "column_title":"Social/PD",
+       "can_be_substituted_with_service":true,
+       "active":4,
+       "da":5,
+       "pa":5
+    },
+    "voting_meeting_attendance":{
+       "column_title":"Voting Meeting Attendance",
+       "can_be_substituted_with_service":true,
+       "active":1,
+       "da":1,
+       "pa":1,
+       "nested_under":"meeting_attendance"
+    },
+    "meeting_attendance":{
+       "column_title":"Voting Meeting Attendance",
+       "can_be_substituted_with_service":true,
+       "active":0,
+       "da":5,
+       "pa":5
+    },
+    "leadership_credit":{
+       "column_title":"Leadership",
+       "can_be_substituted_with_service":true,
+       "active":0,
+       "da":1,
+       "pa":1
+    }
+ }
