@@ -2,6 +2,9 @@
 
 Simple python script for calculating TBP's membership classes.
 
+## Dependencies
+- `Python 3.4` or above
+
 ## Usage
 
 `calc_membership_status.py [-h] [-c CONFIG] [-p PREADJUSTMENT_OUT] input output`
