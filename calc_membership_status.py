@@ -54,7 +54,7 @@ requirements = {
         "nested_under": "meeting_attendance",
     },
     "meeting_attendance": {
-        "column_title": "Voting Meeting Attendance",
+        "column_title": "Meeting Attendance",
         "can_be_substituted_with_service": True,
         "active": 0,
         "da": 5,
