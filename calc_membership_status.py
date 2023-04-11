@@ -78,7 +78,9 @@ def main():
     )
 
     parser.add_argument(
-        "input", type=open, help="input csv from TBP website to read from"
+        "input",
+        type=argparse.FileType("r", encoding="utf-8-sig"),
+        help="input csv from TBP website to read from"
     )
     parser.add_argument(
         "output",
@@ -177,7 +179,7 @@ def main():
 
         # Write any passthrough data to the output
         for header_key in passthrough_headers:
-            output_data.append(member[header_key])
+            output_data.append(member.get(header_key))
 
         # Create copy for preadjustment data
         preadjust_output_data = copy.deepcopy(output_data)

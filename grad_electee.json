@@ -29,17 +29,10 @@
        "nested_under":"meeting_attendance"
     },
     "meeting_attendance":{
-       "column_title":"Voting Meeting Attendance",
+       "column_title":"Meeting Attendance",
        "can_be_substituted_with_service":true,
        "active":0,
        "da":5,
        "pa":5
-    },
-    "leadership_credit":{
-       "column_title":"Leadership",
-       "can_be_substituted_with_service":true,
-       "active":0,
-       "da":1,
-       "pa":1
     }
  }
